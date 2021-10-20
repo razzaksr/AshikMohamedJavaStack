@@ -21,7 +21,7 @@ public class SimpleLoop
 				if(userPay>=costToBePaid)// whether buyer amount meets its payable money
 				{
 					System.out.println("Your Order for Realme X8Pro quantity "+count+" has placed");
-					stock-=count;//stock=stock-count
+					stock-=count;// stock=stock-count
 				}
 				else
 				{
